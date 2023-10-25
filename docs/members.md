@@ -24,6 +24,6 @@ gantt
     title       История дикопсянского членства
 
     section Первый чат
-    Никитос  :active, nikitosv1, 2017-07-27
+    Никитос  :active, nikitosv1, 2017-07-27, 2023-01-01
     Вадян    :active, vadyanv1, 2017-07-27
 ```
