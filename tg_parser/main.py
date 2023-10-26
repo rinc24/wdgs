@@ -14,6 +14,7 @@ tg = Telegram(
     files_directory="./tdlib_files/",
 )
 tg.login()
+# tg.get_chats(limit=1000)
 
 
 def get_cached_messages(chat_id):
@@ -52,7 +53,7 @@ def find_chat_ids(*chat_names: str) -> None:
                 print(f'# chat_id = {chat["id"]}  # {chat["title"]}')
 
 
-# find_chat_ids("Вадим & 404, Вова", "Дикие Псы")
+find_chat_ids("Дикие Псы")
 
 users = {}
 
